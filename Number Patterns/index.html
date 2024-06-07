@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numbers Patterns</title>
+    <style>
+        body {
+            font-weight: 400;
+            font-size: 20px;
+        }
+
+        .container {
+            text-align: end;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Numbers Patterns</h1>
+
+    <script>
+        //TASK 1
+        for (let i = 1; i <= 7; i++) {
+            for (let j = 1; j <= i; j++) {
+                document.write(j + " ");
+            }
+            document.write("<br>")
+        }
+        document.write("<hr>")
+
+        //TASK 2
+        for (let i = 7; i >= 1; i--) {
+            for (let j = i; j >= 1; j--) {
+                document.write(j + " ");
+            }
+            document.write("<br>");
+        }
+        document.write("<hr>");
+
+        //TASK 3
+        for (let i = 1; i <= 7; i++) {
+            for (let j = 1; j <= 7 - i; j++) {
+                document.write("&nbsp;");
+            }
+            for (let k = 1; k <= i; k++) {
+                document.write(k + " ");
+            }
+            document.write("<br>");
+        }
+        document.write("<hr>")
+
+        //TASK 4
+        for (let i = 7; i >= 1; i--) {
+            for (let j = 7 - i; j >= 1; j--) {
+                document.write("&nbsp;");
+            }
+            for (let k = i; k >= 1; k--) {
+                document.write(k + " ");
+            }
+            document.write("<br>");
+        }
+        document.write("<hr>")
+
+        //TASK 5
+        document.write("<div class ='container'>");
+        for (let i = 1; i <= 7; i++) {
+            for (let j = 1; j <= i; j++) {
+                document.write(j + ' ');
+            }
+            document.write("<br>");
+        }
+        document.write("<hr>");
+        document.write("</div>");
+
+        //TASK 6
+        document.write("<div class ='container'>");
+        for (let i = 7; i >= 1; i--) {
+            for (let j = i; j >= 1; j--) {
+                document.write(j + ' ');
+            }
+            document.write("<br>");
+        }
+        document.write("<hr>");
+        document.write("</div>");
+
+        //TASK 7
+        for (let i = 7; i >= 2; i--) {
+            for (let j = i; j >= 1; j--) {
+                document.write(j + ' ');
+            }
+            document.write("<br>");
+        }
+        for (let i = 1; i <= 7; i++) {
+            for (let j = 1; j <= i; j++) {
+                document.write(j + ' ');
+            }
+            document.write("<br>");
+        }
+        document.write("<hr>");
+
+        //TASK 8
+        document.write("<div class ='container'>");
+        for (let i = 7; i >= 2; i--) {
+            for (let j = i; j >= 1; j--) {
+                document.write(j + ' ');
+            }
+            document.write("<br>");
+        }
+        for (let i = 1; i <= 7; i++) {
+            for (let j = 1; j <= i; j++) {
+                document.write(j + ' ');
+            }
+            document.write("<br>");
+        }
+        document.write("<hr>");
+        document.write("</div>");
+
+        //TASK 9
+        for (let i = 7; i >= 2; i--) {
+            for (let j = 7 - i; j >= 1; j--) {
+                document.write('&nbsp;');
+            }
+            for (let k = i; k >= 1; k--) {
+                document.write(k + ' ');
+            }
+            document.write("<br>");
+        }
+        for (let i = 1; i <= 7; i++) {
+            for (let j = 1; j <= 7 - i; j++) {
+                document.write('&nbsp;');
+            }
+            for (let k = 1; k <= i; k++) {
+                document.write(k + ' ');
+            }
+            document.write("<br>");
+        }
+        document.write("<hr>");
+
+        //TASK 10
+        for (let i = 1; i <= 7; i++) {
+            for (let j = 1; j <= 7 - i; j++) {
+                document.write("&nbsp;");
+            }
+            for (let k = 1; k <= i; k++) {
+                document.write(k + " ");
+            }
+            document.write("<br>");
+        }
+        for (let i = 7; i >= 1; i--) {
+            for (let j = 7 - i; j >= 1; j--) {
+                document.write("&nbsp;");
+            }
+            for (let k = i; k >= 1; k--) {
+                document.write(k + " ");
+            }
+            document.write("<br>");
+        }
+        document.write("<hr>");
+
+        // TASK 11
+        for (let i = 0; i <= 7; i++) {
+            for (let j = 1; j <= i; j++) {
+                document.write(j + " ");
+            }
+            document.write("<br>");
+        }
+        for (let i = 7; i >= 1; i--) {
+            for (let j = i; j >= 1; j--) {
+                document.write(j + " ");
+            }
+            document.write("<br>");
+        }
+        document.write("<hr>");
+
+        // TASK 12
+        document.write("<div class = 'container'>");
+            for (let i = 0; i <= 7; i++) {
+            for (let j = 1; j <= i; j++) {
+                document.write(j + " ");
+            }
+            document.write("<br>");
+        }
+        for (let i = 7; i >= 1; i--) {
+            for (let j = i; j >= 1; j--) {
+                document.write(j + " ");
+            }
+            document.write("<br>");
+        }
+        document.write("<hr>");
+        document.write("</div>");
+    </script>
+</body>
+
+</html>

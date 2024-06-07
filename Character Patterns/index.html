@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charcters Patterns</title>
+    <style>
+        body {
+            font-weight: 400;
+            font-size: 20px;
+        }
+
+        .container {
+            text-align: end;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Character Patterns</h1>
+
+    <script>
+        //TASK 1
+        var i, j, c = 65;
+        for (var i = 1; i <= 5; i++) {
+            for (var j = 1; j <= i; j++) {
+                document.write(String.fromCharCode(c) + " ");
+                c++;
+            }
+            document.write("<br>");
+        }
+        document.write("<hr>")
+
+        //TASK 2
+        var i, j, c = 65;
+        for (var i = 5; i >= 1; i--) {
+            for (var j = i; j >= 1; j--) {
+                document.write(String.fromCharCode(c) + " ");
+                c++;
+            }
+            document.write("<br>");
+        }
+        document.write("<hr>")
+
+        //TASK 3
+        var i, j, c = 65;
+        for (var i = 1; i <= 5; i++) {
+            for (let j = 1; j <= 7 - i; j++) {
+                document.write("&nbsp;");
+            }
+            for (var j = 1; j <= i; j++) {
+                document.write(String.fromCharCode(c) + " ");
+                c++;
+            }
+            document.write("<br>");
+        }
+        document.write("<hr>")
+
+        //TASK 4
+        var i, j, c = 65;
+        for (var i = 5; i >= 1; i--) {
+            for (let j = 7 - i; j >= 1; j--) {
+                document.write("&nbsp;");
+            }
+            for (var j = i; j >= 1; j--) {
+                document.write(String.fromCharCode(c) + " ");
+                c++;
+            }
+            document.write("<br>");
+        }
+        document.write("<hr>")
+
+        //TASK 5
+        document.write("<div class ='container'>");
+        var i, j, c = 65;
+        for (var i = 1; i <= 5; i++) {
+            for (var j = 1; j <= i; j++) {
+                document.write(String.fromCharCode(c) + " ");
+                c++;
+            }
+            document.write("<br>");
+        }
+        document.write("<hr>");
+        document.write("</div>");
+
+        //TASK 6
+        document.write("<div class ='container'>");
+        var i, j, c = 65;
+        for (var i = 5; i >= 1; i--) {
+            for (var j = i; j >= 1; j--) {
+                document.write(String.fromCharCode(c) + " ");
+                c++;
+            }
+            document.write("<br>");
+        }
+        document.write("<hr>");
+        document.write("</div>");
+
+        //TASK 7
+        var i, j, c = 65;
+        for (var i = 5; i >= 1; i--) {
+            for (var j = i; j >= 1; j--) {
+                document.write(String.fromCharCode(c) + " ");
+                c++;
+            }
+            document.write("<br>");
+        }
+        var i, j, c = 65;
+        for (var i = 1; i <= 5; i++) {
+            for (var j = 1; j <= i; j++) {
+                document.write(String.fromCharCode(c) + " ");
+                c++;
+            }
+            document.write("<br>");
+        }
+        document.write("<hr>");
+
+        //TASK 8
+        document.write("<div class ='container'>");
+            var i, j, c = 65;
+        for (var i = 5; i >= 1; i--) {
+            for (var j = i; j >= 1; j--) {
+                document.write(String.fromCharCode(c) + " ");
+                c++;
+            }
+            document.write("<br>");
+        }
+        var i, j, c = 65;
+        for (var i = 1; i <= 5; i++) {
+            for (var j = 1; j <= i; j++) {
+                document.write(String.fromCharCode(c) + " ");
+                c++;
+            }
+            document.write("<br>");
+        }
+        document.write("<hr>");
+        document.write("</div>");
+
+        //TASK 9
+        var i, j, c = 65;
+        for (var i = 5; i >= 1; i--) {
+            for (let j = 5 - i; j >= 1; j--) {
+                document.write('&nbsp;');
+            }
+            for (var j = i; j >= 1; j--) {
+                document.write(String.fromCharCode(c) + " ");
+                c++;
+            }
+            document.write("<br>");
+        }
+        var i, j, c = 65;
+        for (var i = 1; i <= 5; i++) {
+            for (let j = 1; j <= 5 - i; j++) {
+                document.write('&nbsp;');
+            }
+            for (var j = 1; j <= i; j++) {
+                document.write(String.fromCharCode(c) + " ");
+                c++;
+            }
+            document.write("<br>");
+        }
+        document.write("<hr>");
+
+
+        //TASK 10
+        var i, j, c = 65;
+        for (var i = 1; i <= 5; i++) {
+            for (let j = 1; j <= 5 - i; j++) {
+                document.write('&nbsp;');
+            }
+            for (var j = 1; j <= i; j++) {
+                document.write(String.fromCharCode(c) + " ");
+                c++;
+            }
+            document.write("<br>");
+        }
+        var i, j, c = 65;
+        for (var i = 5; i >= 1; i--) {
+            for (let j = 5 - i; j >= 1; j--) {
+                document.write('&nbsp;');
+            }
+            for (var j = i; j >= 1; j--) {
+                document.write(String.fromCharCode(c) + " ");
+                c++;
+            }
+            document.write("<br>");
+        }
+        document.write("<hr>");
+
+        // TASK 11
+        var i, j, c = 65;
+        for (var i = 1; i <= 5; i++) {
+            for (var j = 1; j <= i; j++) {
+                document.write(String.fromCharCode(c) + " ");
+                c++;
+            }
+            document.write("<br>");
+        }
+        var i, j, c = 65;
+        for (var i = 5; i >= 1; i--) {
+            for (var j = i; j >= 1; j--) {
+                document.write(String.fromCharCode(c) + " ");
+                c++;
+            }
+            document.write("<br>");
+        }
+        document.write("<hr>");
+        // TASK 12
+        document.write("<div class = 'container'>");
+            var i, j, c = 65;
+        for (var i = 1; i <= 5; i++) {
+            for (var j = 1; j <= i; j++) {
+                document.write(String.fromCharCode(c) + " ");
+                c++;
+            }
+            document.write("<br>");
+        }
+        var i, j, c = 65;
+        for (var i = 5; i >= 1; i--) {
+            for (var j = i; j >= 1; j--) {
+                document.write(String.fromCharCode(c) + " ");
+                c++;
+            }
+            document.write("<br>");
+        }
+        document.write("<hr>");
+        document.write("</div>");
+    </script>
+</body>
+
+</html>
